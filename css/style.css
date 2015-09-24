@@ -1,0 +1,162 @@
+.body {
+	font-family: Lato, sans-serif;
+}
+
+.search-container {
+	background: #2b3e50;
+}
+.main-div {
+	margin-top: 65px;
+}
+
+.search-title {
+	font-size: 63px;
+	color: #fff;
+}
+
+.search-input {
+	margin-top: 20px;
+}
+
+.search-box {
+	background: #4e5d6c !important;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.did-you-mean {
+	margin: 20px;
+	height: 40px;
+}
+
+.suggest-title {
+	color: #fff;
+	padding: 10px 10px;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.suggest-content {
+	color: #fff;
+	padding: 10px 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.results {
+	margin: 15px auto;
+	width: 75%;
+}
+
+.content-title {
+	font-weight: 900;
+	font-size: 50px;
+	margin: 25px 0;
+}
+
+.content-text {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-align: justify;
+}
+
+.search {
+	position: relative;
+}
+
+.search .input-suggestions {
+    display: none;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cbcfe2 #c8cee7 #c4c7d7;
+    border-radius: 3px;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #eceef4));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -moz-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -ms-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -o-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: linear-gradient(top, #fdfdfd, #eceef4);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search .input-suggestions li:first-child { margin-top: -1px }
+
+.search .input-suggestions li:first-child:before, .search .input-suggestions li:first-child:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px outset transparent;
+}
+
+.search .input-suggestions li:first-child:before {
+    border-bottom: 5px solid #c4c7d7;
+    top: -11px;
+}
+
+.search .input-suggestions li:first-child:after {
+    border-bottom: 5px solid #fdfdfd;
+    top: -10px;
+}
+
+.search .input-suggestions li:first-child:hover:before, .search .input-suggestions li:first-child:hover:after { display: none }
+
+.search .input-suggestions li:last-child { margin-bottom: -1px }
+
+.search .input-suggestions p {
+    display: block;
+    position: relative;
+    margin: 0 -1px;
+    padding: 6px 40px 6px 10px;
+    color: #808394;
+    font-weight: 500;
+    text-shadow: 0 1px #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.search .input-suggestions p:hover {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border-color: #2380dd #2179d5 #1a60aa;
+    background-color: #338cdf;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #59aaf4), color-stop(100%, #338cdf));
+    background-image: -webkit-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -moz-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -ms-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -o-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: linear-gradient(top, #59aaf4, #338cdf);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+}
+
+:-moz-placeholder {
+    color: #a7aabc;
+    font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+    color: #a7aabc;
+    font-weight: 200;
